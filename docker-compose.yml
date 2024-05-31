@@ -1,0 +1,9 @@
+services:
+  debian-12:
+    container_name: "Debian-12"
+    build: .
+    volumes:
+      - ./scripts:/scripts
+      - ./temp:/tmp/scripting
+    stdin_open: true
+    tty: true
