@@ -5,10 +5,10 @@ This script check if the file size directory is greater than limit size, if it's
 The script needs two parameters:
 
  - The first parameter is the full directory path
- - The second parameter is the directory limit size in bytes allowed
+ - The second parameter is the directory limit size allowed in megabytes
 
 ### Example
-`foo@bar:~$ ./directory_size_cleanup.sh /tmp/directory_to_check 15000000` 
+`foo@bar:~$ ./directory_size_cleanup.sh /tmp/directory_to_check 150` 
 
 
 # delete_temp_files.sh
