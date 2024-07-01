@@ -20,7 +20,7 @@ fi
 
 # 2.- Check if "limit_size_bytes" was set
 if [ -z "$limit_size_megabytes" ]; then
-    echo "Se requiere especificar el límite de almacenamiento del directorio en bytes"
+    echo "Se requiere especificar el límite de almacenamiento del directorio en megabytes"
     exit 1
 fi
 
